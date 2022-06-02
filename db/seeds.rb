@@ -1,7 +1,42 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+# tag = Tag.create(name: "Fridge")
+# tag = Tag.create(name: "Pantry")
+# tag = Tag.create(name: "Booze")
+# tag = Tag.create(name: "Spice")
+# tag = Tag.create(name: "To Do")
+# tag = Tag.create(name: "Misc")
+
+# supply = Supply.create(name:"Mustard", status: 1)
+# supply = Supply.create(name:"Ketchup", status: 2 )
+# supply = Supply.create(name:"Mayo", status: 2)
+# supply = Supply.create(name:"Olive Oil", status: 2)
+# supply = Supply.create(name:"Butter", status: 1)
+# supply = Supply.create(name:"Coffee", status: 2)
+# supply = Supply.create(name:"Charcoal", status: 1)
+# supply = Supply.create(name:"Garlic Salt", status: 4)
+# supply = Supply.create(name:"Salt", status: 2)
+# supply = Supply.create(name:"Pepper", status: 2)
+# supply = Supply.create(name:"American Cheese", status: 1)
+# supply = Supply.create(name:"Oregano", status: 2)
+# supply = Supply.create(name:"Sauerkraut", status: 0)
+
+# note = Note.create(body: "Change the filter on the dehumidifier", user_id: 3, read: true)
+# note = Note.create(body: "Bought too many eggs, so left a dozen for you guys. Enjoy!", user_id: 2, read: true)
+# note = Note.create(body: "Left a ton of american cheese in the fridge", user_id: 1, read: false)
+
+# tagging = Tagging.create(taggable_type: "Note", taggable_id: 1, tag_id: 5)
+# tagging = Tagging.create(taggable_type: "Note", taggable_id: 2, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Note", taggable_id: 3, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 1, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 2, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 3, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 4, tag_id: 2)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 5, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 6, tag_id: 2)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 7, tag_id: 2)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 8, tag_id: 4)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 9, tag_id: 4)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 10, tag_id: 4)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 11, tag_id: 1)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 12, tag_id: 4)
+# tagging = Tagging.create(taggable_type: "Supply", taggable_id: 13, tag_id: 1)
+
